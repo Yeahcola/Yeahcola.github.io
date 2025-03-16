@@ -1,8 +1,7 @@
 baseURL = "https://yeahcola.github.io/"
 languageCode = "en-us"
-title = "TEST"
-theme="archie"
-copyright = "© Athul"
+title = "yeah"
+theme = "archie"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
@@ -27,21 +26,31 @@ icon = "gitlab"
 url = "https://gitlab.com/athul/"
 
 [[menu.main]]
-name = "Home"
+name = "home"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "posts"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "projects"
+url = "/project"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "photos"
+url = "/photo"
 weight = 4
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 5
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 6
